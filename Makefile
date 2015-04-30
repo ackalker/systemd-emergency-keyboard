@@ -4,6 +4,7 @@ all:
 
 install:
 	$(call install-drop-in,initrd,emergency.service,keyboard.conf,25)
+	$(call install-drop-in,system,emergency.service,keyboard.conf,25)
 
 .PHONY: all install
 
